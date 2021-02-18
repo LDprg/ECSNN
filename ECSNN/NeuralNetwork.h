@@ -70,7 +70,7 @@ public:
 
 						registry.emplace<connection>(entity, connect);
 
-						return ID - 1;
+						return connect.id;
 					}
 				}
 			}
