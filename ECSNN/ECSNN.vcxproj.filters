@@ -18,10 +18,7 @@
     <ClCompile Include="main.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="components\node.h">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="systems\nodeSytems.cpp">
+    <ClCompile Include="ecsnn\systems\nodeSytems.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>
@@ -29,13 +26,19 @@
     <ClInclude Include="entt\entt.hpp">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="NeuralNetwork.h">
+    <ClInclude Include="ecsnn\core.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="components\connection.h">
+    <ClInclude Include="ecsnn\NeuralNetwork.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="systems\nodeSytems.h">
+    <ClInclude Include="ecsnn\components\connection.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="ecsnn\components\node.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="ecsnn\systems\nodeSytems.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>

@@ -139,15 +139,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="components\node.h" />
+    <ClCompile Include="ecsnn\systems\nodeSytems.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="systems\nodeSytems.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="components\connection.h" />
+    <ClInclude Include="ecsnn\components\connection.h" />
+    <ClInclude Include="ecsnn\components\node.h" />
+    <ClInclude Include="ecsnn\core.h" />
+    <ClInclude Include="ecsnn\NeuralNetwork.h" />
+    <ClInclude Include="ecsnn\systems\nodeSytems.h" />
     <ClInclude Include="entt\entt.hpp" />
-    <ClInclude Include="NeuralNetwork.h" />
-    <ClInclude Include="systems\nodeSytems.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

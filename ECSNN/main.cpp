@@ -1,6 +1,8 @@
 #include <iostream>
 
-#include "NeuralNetwork.h"
+#include "ecsnn/NeuralNetwork.h"
+
+using namespace ecsnn;
 
 int main()
 {
