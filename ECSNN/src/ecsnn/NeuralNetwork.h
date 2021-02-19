@@ -1,8 +1,6 @@
 #pragma once
-#include <vector>
-#include <queue>
 
-#include "entt/entt.hpp"
+#include "entt.hpp"
 
 #include "components/node.h"
 #include "components/connection.h"
@@ -63,7 +61,6 @@ namespace ecsnn
 			registry.emplace<connection>(entity, connect);
 
 			return entity;
-
 		}
 
 		template <class type, class outFuncType>

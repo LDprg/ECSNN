@@ -1,7 +1,5 @@
 #pragma once
 
-#include <cmath>
-
 #include "../components/node.h"
 
 namespace ecsnn

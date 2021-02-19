@@ -1,3 +1,4 @@
+#include "pch.h"
 #include "nodeSytems.h"
 
 void ecsnn::UpdateNodeLinear(node entity, nodelinear entityinfo)

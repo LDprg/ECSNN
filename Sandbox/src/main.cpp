@@ -1,6 +1,6 @@
-#include <iostream>
+#include "escnn.h"
 
-#include "ecsnn/NeuralNetwork.h"
+#include <iostream>
 
 using namespace ecsnn;
 
@@ -15,5 +15,5 @@ int main()
 
 	nn.addNode<nodeLast, nodelinear>(1);
 
-	//	std::cin.get();
+	std::cin.get();
 }
