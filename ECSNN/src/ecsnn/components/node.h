@@ -30,6 +30,7 @@ namespace ecsnn
 
 	struct node
 	{
+		int id;
 		int layer;
 
 		float input;
